@@ -1,5 +1,11 @@
-const age=24;
-let name="lakshya";
-console.log(name);
-name="aman";
-console.log(name);
+const data ={
+    name: "lakshya",
+    age: 18,
+    class: 2,
+    nested : {
+        doubleNestd: {
+            slang : "lol"
+        }
+    }
+}
+console.log(data.nested.doubleNestd.slang)
